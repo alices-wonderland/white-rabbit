@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@mikro-orm/better-sqlite": "^5.2.4",
-    "electron": "19.0.9",
+    "electron": "19.0.10",
     "electron-builder": "^23.3.3",
     "tree-kill": "^1.2.2"
   }
