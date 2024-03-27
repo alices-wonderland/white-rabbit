@@ -697,9 +697,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/bundle-utils@npm:^7.4.0":
-  version: 7.5.1
-  resolution: "@intlify/bundle-utils@npm:7.5.1"
+"@intlify/bundle-utils@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "@intlify/bundle-utils@npm:8.0.0"
   dependencies:
     "@intlify/message-compiler": "npm:^9.4.0"
     "@intlify/shared": "npm:^9.4.0"
@@ -707,7 +707,6 @@ __metadata:
     escodegen: "npm:^2.1.0"
     estree-walker: "npm:^2.0.2"
     jsonc-eslint-parser: "npm:^2.3.0"
-    magic-string: "npm:^0.30.0"
     mlly: "npm:^1.2.0"
     source-map-js: "npm:^1.0.1"
     yaml-eslint-parser: "npm:^1.2.2"
@@ -716,7 +715,7 @@ __metadata:
       optional: true
     vue-i18n:
       optional: true
-  checksum: 10/0f1677880b4b68ae360a8744334e6bef8c37051b36dd6c94fbfb0b4397d0e6ba547ad57fbbb9baab8eccc39945f8c97b871345bbf22b9860efa135123aa93acc
+  checksum: 10/b8a140728157fb632c8af3741d4ff324d778ecff92ad74c64b988dc9a1324cb1592d984ef03d1add238fb3437662170de526010ba137dfcee824a01e5c63a1be
   languageName: node
   linkType: hard
 
@@ -747,11 +746,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/unplugin-vue-i18n@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@intlify/unplugin-vue-i18n@npm:3.0.1"
+"@intlify/unplugin-vue-i18n@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@intlify/unplugin-vue-i18n@npm:4.0.0"
   dependencies:
-    "@intlify/bundle-utils": "npm:^7.4.0"
+    "@intlify/bundle-utils": "npm:^8.0.0"
     "@intlify/shared": "npm:^9.4.0"
     "@rollup/pluginutils": "npm:^5.1.0"
     "@vue/compiler-sfc": "npm:^3.2.47"
@@ -774,7 +773,7 @@ __metadata:
       optional: true
     vue-i18n-bridge:
       optional: true
-  checksum: 10/58d75c5b8173ee8183eef471a9ad23f98463a0dd02aa1e48b1d8438353067149570c0a49ce47c403a50bfe7c36c9f492dcca63ccb964c4228ed03b9664498e25
+  checksum: 10/f8978c10dae8b39aa7d1b2899ae0002a098471b0643329827b8679728ce26fc2ec526a5a532de29026d13c5296dbb81b637c4056b61167a9a6863b4a15a1049d
   languageName: node
   linkType: hard
 
@@ -5467,7 +5466,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.0, magic-string@npm:^0.30.5, magic-string@npm:^0.30.7":
+"magic-string@npm:^0.30.5, magic-string@npm:^0.30.7":
   version: 0.30.8
   resolution: "magic-string@npm:0.30.8"
   dependencies:
@@ -8323,7 +8322,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.2.1"
     "@commitlint/config-conventional": "npm:^19.1.0"
-    "@intlify/unplugin-vue-i18n": "npm:^3.0.1"
+    "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
     "@quasar/vite-plugin": "npm:^1.6.0"
     "@types/eslint": "npm:^8.56.6"
     "@types/jsdom": "npm:^21.1.6"
