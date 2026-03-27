@@ -3057,7 +3057,7 @@ __metadata:
     "@electron-forge/plugin-fuses": "npm:^7.5.0"
     "@electron-forge/plugin-vite": "npm:^7.5.0"
     "@electron/fuses": "npm:^1.8.0"
-    electron: "npm:32.1.2"
+    electron: "npm:32.3.3"
     rimraf: "npm:^6.0.1"
     vite: "npm:^5.4.7"
     vitest: "npm:^2.1.1"
@@ -4735,16 +4735,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:32.1.2":
-  version: 32.1.2
-  resolution: "electron@npm:32.1.2"
+"electron@npm:32.3.3":
+  version: 32.3.3
+  resolution: "electron@npm:32.3.3"
   dependencies:
     "@electron/get": "npm:^2.0.0"
     "@types/node": "npm:^20.9.0"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 10/a4793dd12b2d1dffff53420092ac7612eee41d193f07e847783136ee296b5380abb169eb1a4c1929b01a99b1d93bf53f071f2c5128e8241e70ec930d303fba51
+  checksum: 10/51d0762b6b1acd90f63915a9e420d34bc5cd11174517b67e57aee9bdd42562534d658875f681e5adbfc53cdeeb71c733b11c3f6bf61357f4368da013dc3c97c0
   languageName: node
   linkType: hard
 
