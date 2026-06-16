@@ -13,7 +13,7 @@ dotenv = "0.15"
 env_logger = "0.11"
 fake = { version = "2.9", features = ["bigdecimal", "chrono"] }
 futures = "0.3"
-itertools = "0.13"
+itertools = "0.15"
 log = "0.4"
 migration = { path = "../migration" }
 rand = "0.8"
