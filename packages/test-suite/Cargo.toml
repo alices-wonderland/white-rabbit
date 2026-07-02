@@ -16,7 +16,7 @@ futures = "0.3"
 itertools = "0.13"
 log = "0.4"
 migration = { path = "../migration" }
-rand = "0.8"
+rand = "0.10"
 rust_decimal = "1.36"
 tokio = { version = "1.40", features = ["rt", "macros"] }
 uuid = { version = "1.10", features = ["serde", "v4", "macro-diagnostics"] }
