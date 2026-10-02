@@ -853,6 +853,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@electron-internal/extract-zip@npm:^1.0.1":
+  version: 1.0.5
+  resolution: "@electron-internal/extract-zip@npm:1.0.5"
+  checksum: 10/f67a2ae62ab78df306e5ec38e917fed8faf87053cf13aa5d29784ed7da6d7b96b358b3559be1b6fa98d75636593dfed23ad89a8aafff5ffac01c3c88abdd0291
+  languageName: node
+  linkType: hard
+
 "@electron/asar@npm:^3.2.1, @electron/asar@npm:^3.2.7":
   version: 3.2.10
   resolution: "@electron/asar@npm:3.2.10"
@@ -893,25 +900,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@electron/get@npm:^2.0.0":
-  version: 2.0.3
-  resolution: "@electron/get@npm:2.0.3"
-  dependencies:
-    debug: "npm:^4.1.1"
-    env-paths: "npm:^2.2.0"
-    fs-extra: "npm:^8.1.0"
-    global-agent: "npm:^3.0.0"
-    got: "npm:^11.8.5"
-    progress: "npm:^2.0.3"
-    semver: "npm:^6.2.0"
-    sumchecker: "npm:^3.0.1"
-  dependenciesMeta:
-    global-agent:
-      optional: true
-  checksum: 10/ac736cdeac52513b23038c761ebcb9fd315d443675f12c975805d7bcddcdabe5be492310ce5f6f1915d27013bcdcf19d0dac73c72353120948bbdf01fb3e11bf
-  languageName: node
-  linkType: hard
-
 "@electron/get@npm:^3.0.0":
   version: 3.0.0
   resolution: "@electron/get@npm:3.0.0"
@@ -928,6 +916,24 @@ __metadata:
     global-agent:
       optional: true
   checksum: 10/1e92f10c1d50dde4be1a21c361101a5c7484b7ad7a3fe1ca60ba9405c314a18739c061dfca26e8bdbe6a12a2346817cc1fc711e8e8fe6ff1261104a4dfa92fc5
+  languageName: node
+  linkType: hard
+
+"@electron/get@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "@electron/get@npm:5.1.0"
+  dependencies:
+    debug: "npm:^4.1.1"
+    env-paths: "npm:^3.0.0"
+    graceful-fs: "npm:^4.2.11"
+    progress: "npm:^2.0.3"
+    semver: "npm:^7.6.3"
+    sumchecker: "npm:^3.0.1"
+    undici: "npm:^7.24.4"
+  dependenciesMeta:
+    undici:
+      optional: true
+  checksum: 10/e9ff8716d1f777a09aee8efe7761b5b6db1c0f572222cf10b8cf4d4f1f88c71c131ec41880030ee9c00ed00e55953e0d07e2cc12f526c98a985bc828c3861ec4
   languageName: node
   linkType: hard
 
@@ -2391,7 +2397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.9.0":
+"@types/node@npm:*":
   version: 20.14.2
   resolution: "@types/node@npm:20.14.2"
   dependencies:
@@ -2406,6 +2412,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10/98852ff9d4b1e9180d82010d5a639ddb3676741b1dee361ec52f59f3526634127f76d6a030db0ff7c5f2ac88b330f745cacce898d309b9262972860e9dba2c1b
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^24.9.0":
+  version: 24.19.1
+  resolution: "@types/node@npm:24.19.1"
+  dependencies:
+    undici-types: "npm:>=7.24.0 <7.24.7"
+  checksum: 10/52c8d538a7d3b57699101912ae89093f97471ad5f4f9564e8012080f1aecadf26acbdbe072232da6d891d2dd9ce84c1a8e6edb29edc4bc307eda1d064de4d1e9
   languageName: node
   linkType: hard
 
@@ -3057,7 +3072,7 @@ __metadata:
     "@electron-forge/plugin-fuses": "npm:^7.5.0"
     "@electron-forge/plugin-vite": "npm:^7.5.0"
     "@electron/fuses": "npm:^1.8.0"
-    electron: "npm:32.1.2"
+    electron: "npm:41.10.6"
     rimraf: "npm:^6.0.1"
     vite: "npm:^5.4.7"
     vitest: "npm:^2.1.1"
@@ -4735,16 +4750,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:32.1.2":
-  version: 32.1.2
-  resolution: "electron@npm:32.1.2"
+"electron@npm:41.10.6":
+  version: 41.10.6
+  resolution: "electron@npm:41.10.6"
   dependencies:
-    "@electron/get": "npm:^2.0.0"
-    "@types/node": "npm:^20.9.0"
-    extract-zip: "npm:^2.0.1"
+    "@electron-internal/extract-zip": "npm:^1.0.1"
+    "@electron/get": "npm:^5.0.0"
+    "@types/node": "npm:^24.9.0"
   bin:
     electron: cli.js
-  checksum: 10/a4793dd12b2d1dffff53420092ac7612eee41d193f07e847783136ee296b5380abb169eb1a4c1929b01a99b1d93bf53f071f2c5128e8241e70ec930d303fba51
+  checksum: 10/b1cc95197999d1639552215c91dcb207d73517b698afa484b00f71b3997b0f44ae65cc99898fcaae14f6c83fdbb4fae007031fe296d77ee9ee253ce21368ee5a
   languageName: node
   linkType: hard
 
@@ -4798,6 +4813,13 @@ __metadata:
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
   checksum: 10/65b5df55a8bab92229ab2b40dad3b387fad24613263d103a97f91c9fe43ceb21965cd3392b1ccb5d77088021e525c4e0481adb309625d0cb94ade1d1fb8dc17e
+  languageName: node
+  linkType: hard
+
+"env-paths@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "env-paths@npm:3.0.0"
+  checksum: 10/b2b0a0d0d9931a13d279c22ed94d78648a1cc5f408f05d47ff3e0c1616f0aa0c38fb33deec5e5be50497225d500607d57f9c8652c4d39c2f2b7608cd45768128
   languageName: node
   linkType: hard
 
@@ -5367,7 +5389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-zip@npm:^2.0.0, extract-zip@npm:^2.0.1":
+"extract-zip@npm:^2.0.0":
   version: 2.0.1
   resolution: "extract-zip@npm:2.0.1"
   dependencies:
@@ -6133,7 +6155,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.6":
+"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.11, graceful-fs@npm:^4.2.6":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: 10/bf152d0ed1dc159239db1ba1f74fdbc40cb02f626770dcd5815c427ce0688c2635a06ed69af364396da4636d0408fcf7d4afdf7881724c3307e46aff30ca49e2
@@ -10514,6 +10536,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:>=7.24.0 <7.24.7":
+  version: 7.24.6
+  resolution: "undici-types@npm:7.24.6"
+  checksum: 10/defc9538b952e3c15b8526596c591f7c1f0c7605ad27a2b7feddbea7ef2e3003f3eda2cdb051a3cb1a2185e3893100fd9cb925c799db99d48131ea63b5233d10
+  languageName: node
+  linkType: hard
+
 "undici-types@npm:~5.26.4":
   version: 5.26.5
   resolution: "undici-types@npm:5.26.5"
@@ -10525,6 +10554,13 @@ __metadata:
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10/cf0b48ed4fc99baf56584afa91aaffa5010c268b8842f62e02f752df209e3dea138b372a60a963b3b2576ed932f32329ce7ddb9cb5f27a6c83040d8cd74b7a70
+  languageName: node
+  linkType: hard
+
+"undici@npm:^7.24.4":
+  version: 7.30.0
+  resolution: "undici@npm:7.30.0"
+  checksum: 10/eb9e4bb5f1b4c35cb934c0d04fe676b62c3be06fb3be4a256ff73699bd77abc3d41f262597a4debd41f334c95ca3ea6e763268c3768882c3fc88a5d33234b8f6
   languageName: node
   linkType: hard
 
