@@ -22,7 +22,7 @@ tonic-reflection = "0.12"
 uuid = { version = "1.10", features = ["serde", "macro-diagnostics"] }
 
 [build-dependencies]
-tonic-build = "0.12"
+tonic-build = "0.14"
 
 [dev-dependencies]
 migration = { path = "../migration" }
